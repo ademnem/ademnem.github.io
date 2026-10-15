@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background: tomato;
+  position: absolute;
+  transition: transform 0.1s linear;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+}
+
+.coords {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 12px 20px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-family: monospace;
+  border-radius: 6px;
+  font-size: 24px;
+}
